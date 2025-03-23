@@ -9,7 +9,7 @@ body {
 
 h1 {
   margin-left: 41vw;
-  color: rgb(145, 11, 145);
+  color: rgb(187, 10, 119);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 3px 3px rgba(255, 255, 255, 0.263);
 }
@@ -51,6 +51,7 @@ input:focus {
   width: 30vw;
   margin-top: 5vh;
   margin-left: 32.5vw;
+  margin-bottom: 5vh;
   border-radius: 1vw;
 
   :first-child {
@@ -65,13 +66,9 @@ input:focus {
     width: 100%;
     height: 5vh;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
     &:hover {
       background-color: rgba(225, 225, 225, 0.888);
